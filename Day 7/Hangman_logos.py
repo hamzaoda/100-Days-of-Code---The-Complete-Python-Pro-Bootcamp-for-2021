@@ -1,0 +1,1 @@
+stages=["stage6", "stage5", "stage4", "stage3", "stage2", "stage1"]

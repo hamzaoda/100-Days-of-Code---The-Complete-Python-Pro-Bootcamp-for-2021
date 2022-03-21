@@ -1,0 +1,12 @@
+word_list=["ardvark",
+           "baboon",
+           "camel",
+           "wolf",
+           "dog",
+           "cat",
+           "elephant",
+           "snake",
+           "fish",
+           "corocdail",
+           "tiger",
+           "loin"]
