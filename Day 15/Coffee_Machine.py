@@ -37,6 +37,7 @@ def makeRequest(inserted_amount, answer):
     for ingredient in answer['ingredients']:
         resources[ingredient] -= answer['ingredients'][ingredient]
     change = inserted_amount - answer['cost']
+    resources['money'] +=answer['cost']
     return change
     
 
