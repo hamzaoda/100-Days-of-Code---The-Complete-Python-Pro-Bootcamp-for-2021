@@ -13,7 +13,7 @@ class Snake :
             new_square = Turtle(shape = 'square')
             new_square.penup()
             new_square.color('white')
-            new_square.goto(-20 * i,0)
+            new_square.goto(-20 * i, 0)
             self.squares.append(new_square)
         self.head = self.squares[0]
     
