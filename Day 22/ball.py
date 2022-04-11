@@ -26,5 +26,9 @@ class Ball(Turtle):
         
     def bounceOnPaddle(self):
         self.x_move *= -1
+        
+    def changeDirection(self):
+        self.body.home()
+        self.x_move *= -1
 
         

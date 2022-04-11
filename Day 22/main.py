@@ -30,9 +30,14 @@ while game_is_on:
     if ball.body.ycor() > 290 or ball.body.ycor() < -290:
         ball.bounce()
     
-    if ball.body.distance(r_paddle.body) < 50 and ball.body.xcor() > 340 or ball.body.xcor() < -340 and ball.body.distance(l_paddle.body) < 50:
+    if ball.body.distance(r_paddle.body) < 50 and ball.body.xcor() > 320 or ball.body.xcor() < -320 and ball.body.distance(l_paddle.body) < 50:
         ball.bounceOnPaddle()
-        print("Heloo")
+        
+    if ball.body.xcor() > 380 :
+        ball.changeDirection()
+    
+    if ball.body.xcor() < -380:
+        ball.changeDirection()    
 
     
 
